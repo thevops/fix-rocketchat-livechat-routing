@@ -12,7 +12,7 @@ Clear counter everyday with script `clear_count.js`
 conn = new Mongo();
 db = conn.getDB("rocketchat");
 
-db.rocketchat_livechat_department_agents.update({username: "malgosia"},{$set:{'count':0}})
-db.rocketchat_livechat_department_agents.update({username: "jas"},{$set:{'count':0}})
+db.rocketchat_livechat_department_agents.update({username: "kate"},{$set:{'count':0}})
+db.rocketchat_livechat_department_agents.update({username: "jack"},{$set:{'count':0}})
 ```
 (add this to cron)
