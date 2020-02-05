@@ -15,4 +15,5 @@ db = conn.getDB("rocketchat");
 db.rocketchat_livechat_department_agents.update({username: "kate"},{$set:{'count':0}})
 db.rocketchat_livechat_department_agents.update({username: "jack"},{$set:{'count':0}})
 ```
+Run: `mongo --quiet clear_count.js`
 (add this to cron)
