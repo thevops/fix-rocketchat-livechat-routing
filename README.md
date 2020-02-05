@@ -1,7 +1,8 @@
 # fix-rocketchat-livechat-routing
 Fix RocketChat Livechat least amount routing method
 
-# Problem: https://github.com/RocketChat/Rocket.Chat/issues/13134
+# Problem
+https://github.com/RocketChat/Rocket.Chat/issues/13134
 
 # Solution
 
